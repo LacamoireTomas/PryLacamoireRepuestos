@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class frmRepuestos : Form
     {
-        // declaración de la estructura para los turnos
+       
         public struct Repuestos
         {
             public string strMarca;
@@ -21,7 +21,7 @@ namespace WindowsFormsApp1
             public string strDescripcion;
             public float floPrecio;
         }
-        // variable para controlar la cantidad de elementos cargados
+        
 
         Repuestos[] vecRepuestos = new Repuestos[100];
         public int intRegistro = 0;
